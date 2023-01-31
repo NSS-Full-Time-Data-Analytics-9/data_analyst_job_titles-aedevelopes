@@ -1,0 +1,4 @@
+select location as state, avg(star_rating) as avg_rating
+from data_analyst_jobs
+group by location
+order by avg_rating

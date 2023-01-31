@@ -1,0 +1,5 @@
+select distinct title
+from public.data_analyst_jobs
+where title not ilike '%Analyst%' 
+and title not ilike '%Analytics%' 
+

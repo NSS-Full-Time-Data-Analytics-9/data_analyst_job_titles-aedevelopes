@@ -1,0 +1,3 @@
+select count(title)
+from data_analyst_jobs
+where review_count between 500 and 1000
